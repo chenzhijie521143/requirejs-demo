@@ -1,0 +1,9 @@
+({
+	appDir:'./src',
+	baseUrl:'./js',
+	dir:'./build',
+	optimize:'none',
+	mainConfigFile:'src/js/require.config.js',
+	inlineText:false,
+	name:'main'
+})

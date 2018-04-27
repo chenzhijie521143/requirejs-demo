@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="https://docs.handsontable.com/pro/bower_components/handsontable-pro/dist/handsontable.full.min.css">
+<script src="https://docs.handsontable.com/pro/bower_components/handsontable-pro/dist/handsontable.full.min.js"></script>
+</head>
+<body>
+<div id="hot"></div>
+<script>
+	var data = [
+  ["", "Ford", "Tesla", "Toyota", "Honda"],
+  ["2017", 10, 11, 12, 13],
+  ["2018", 20, 11, 14, 13],
+  ["2019", 30, 15, 12, 13]
+];
+
+var container = document.getElementById('hot');
+var hot = new Handsontable(container, {
+  data: data,
+  rowHeaders: true,
+  colHeaders: true,
+  filters: true,
+  dropdownMenu: true
+});
+</script>
+</body>
+</html>
