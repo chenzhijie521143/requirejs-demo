@@ -16,8 +16,3 @@
 ##### dev.config.js 修改debuge :true 打包模式，false:开发模式
 `npm run dev`
 ##### 切换 debuge 查看 打包/不打包 两种加载模式
-<<<<<<< HEAD
-
-
-=======
->>>>>>> v 1.0
